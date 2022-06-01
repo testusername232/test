@@ -1,0 +1,9 @@
+@function Plus($value1, $value2, $value3) {
+  $result: rgb($value1, $value2, $value3);
+  @return $result;
+}
+
+h1 {
+  color: Plus(20, 120, 50);
+  // color: rgb(200, 200, 200);
+}
